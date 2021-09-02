@@ -50,7 +50,7 @@
 
     // Download the data
     myConnector.getData = function(table, doneCallback) {
-        $.getJSON("https://raw.githubusercontent.com/hyemin-Kim/myconnector/main/UpbitTest/upbit_data_t1.json", function(resp) {
+        $.getJSON("https://raw.githubusercontent.com/hyemin-Kim/myconnector/master/UpbitTest/upbit_data_t1.json", function(resp) {
             var feat = resp,
                 tableData = [];
 
